@@ -1,5 +1,5 @@
 {
-  "name": "semrel-config",
+  "name": "semrel-plugin",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,10 +8,5 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "semantic-release": "^18.0.1",
-    "semantic-release-monorepo": "^7.0.5",
-		"semrel-plugin": "0.0.0"
-  }
+  "license": "ISC"
 }
