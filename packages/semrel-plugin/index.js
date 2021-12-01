@@ -1,15 +1,13 @@
 function prepare(pluginConfig, context) {
-	const { logger } = context
-	logger(pluginConfig)
-	logger(context)
-	logger('Prepare function')
+	console.log('Prepare function')
+	console.log(pluginConfig)
+	console.log(context)
 }
 
 function analyzeCommits(pluginConfig, context) {
-	const { logger } = context
-	logger(pluginConfig)
-	logger(context)
-	logger('analyzeCommits function')
+	console.log('analyzeCommits function')
+	console.log(pluginConfig)
+	console.log(context)
 }
 
 

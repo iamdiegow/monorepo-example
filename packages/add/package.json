@@ -19,7 +19,7 @@
   },
   "release": {
     "extends": [
-      "semantic-release-monorepo",
+			"semantic-release-monorepo",
       "./release.config"
     ]
   }

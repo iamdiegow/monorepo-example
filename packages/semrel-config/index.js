@@ -1,9 +1,9 @@
 const branches = ['main'];
 
 const plugins = [
+	'./node_modules/semrel-plugin',
   '@semantic-release/commit-analyzer',
   '@semantic-release/release-notes-generator',
-	'./node_modules/semrel-plugin',
   [
     '@semantic-release/npm',
     {
