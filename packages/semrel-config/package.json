@@ -10,10 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "semantic-release": "^18.0.1"
-  },
-	"peerDependencies": {
     "semantic-release": "^18.0.1",
     "semantic-release-monorepo": "^7.0.5"
-	}
+  }
 }

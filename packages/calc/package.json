@@ -18,6 +18,9 @@
     "semrel-config": "^1.0.0"
   }, 
 	"release": {
-		"extends": "./release.config"
+		"extends": [
+			"semantic-release-monorepo",
+			"./release.config"
+		]
 	}
 }
