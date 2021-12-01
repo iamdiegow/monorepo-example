@@ -8,18 +8,19 @@
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-		"release": "npx semantic-release --debug"
+    "release": "npx semantic-release --debug"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "semrel-config": "^1.0.0"
+    "semrel-config": "^1.0.0",
+    "semrel-plugin": "^1.0.0"
   },
-	"release": {
-		"extends": [
-			"semantic-release-monorepo",
-			"./release.config"
-		]
-	}
+  "release": {
+    "extends": [
+      "semantic-release-monorepo",
+      "./release.config"
+    ]
+  }
 }
