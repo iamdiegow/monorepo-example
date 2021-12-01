@@ -1,7 +1,7 @@
 {
-  "name": "add",
+  "name": "calc",
   "version": "1.0.0",
-  "description": "function to add two numbers",
+  "description": "",
   "main": "src/index.js",
 	"files": [
 		"src/"
@@ -11,5 +11,8 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "add": "^1.0.0"
+  }
 }
