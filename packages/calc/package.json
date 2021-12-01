@@ -7,7 +7,8 @@
     "src/"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+		"release": "npx semantic-release"
   },
   "keywords": [],
   "author": "",
@@ -15,5 +16,8 @@
   "dependencies": {
     "add": "^1.0.0",
     "semrel-config": "^1.0.0"
-  }
+  }, 
+	"release": {
+		"extends": "semrel-config"
+	}
 }
