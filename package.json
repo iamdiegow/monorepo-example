@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "postinstall": "lerna bootstrap --hoist --loglevel debug",
-		"release": "lerna run release --stream"
+    "release": "lerna run release --stream"
   },
   "keywords": [],
   "author": "",
