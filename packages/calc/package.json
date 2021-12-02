@@ -1,5 +1,5 @@
 {
-  "name": "calc",
+  "name": "@ds/calc",
   "version": "1.0.0",
   "description": "",
   "main": "src/index.js",
@@ -13,9 +13,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "add": "^1.0.0",
-    "semrel-config": "^1.0.0",
-    "semrel-plugin": "^1.0.0"
+    "@ds/add": "^1.0.0",
+    "@ds/semrel-config": "^1.0.0",
+    "@ds/semrel-plugin": "^1.0.0"
   },
   "release": {
     "extends": [

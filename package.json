@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "postinstall": "lerna bootstrap --hoist --loglevel debug",
+    "postinstall": "lerna bootstrap --ci --loglevel debug",
     "release": "lerna run release --stream"
   },
   "keywords": [],

@@ -1,5 +1,5 @@
 {
-  "name": "semrel-config",
+  "name": "@ds/semrel-config",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,6 +12,6 @@
   "dependencies": {
     "semantic-release": "^18.0.1",
     "semantic-release-monorepo": "^7.0.5",
-    "semrel-plugin": "^1.0.0"
+    "@ds/semrel-plugin": "^1.0.0"
   }
 }
