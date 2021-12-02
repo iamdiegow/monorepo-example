@@ -9,13 +9,14 @@ const plugins = [
     {
       npmPublish: false,
     },
-  ]
+  ],
+	'@semantic-release/github'
 ];
 
 module.exports = {
   branches,
   plugins,
-	dryRun: true,
+	dryRun: false,
 	ci: false,
 	debug: true
 };
