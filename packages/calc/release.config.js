@@ -1,3 +1,3 @@
-const semrelConfig = require('semrel-config')
+const semrelConfig = require('@ds/semrel-config')
 
 module.exports = semrelConfig

@@ -13,11 +13,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "@ds/semrel-config": "^1.0.0",
-    "@ds/semrel-plugin": "^1.0.0"
-  },
 	"devDependencies": {
+    "@ds/semrel-config": "^1.0.0",
+    "@ds/semrel-plugin": "^1.0.0",
 		"semantic-release": "^18.0.1", 
 		"semantic-release-monorepo": "^7.0.5"
 	},
